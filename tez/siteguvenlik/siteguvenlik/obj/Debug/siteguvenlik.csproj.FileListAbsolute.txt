@@ -1,0 +1,11 @@
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\bin\Debug\siteguvenlik.exe.config
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\bin\Debug\siteguvenlik.exe
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\bin\Debug\siteguvenlik.pdb
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\obj\Debug\siteguvenlik.csproj.AssemblyReference.cache
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\obj\Debug\siteguvenlik.csproj.SuggestedBindingRedirects.cache
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\obj\Debug\siteguvenlik.Form1.resources
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\obj\Debug\siteguvenlik.Properties.Resources.resources
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\obj\Debug\siteguvenlik.csproj.GenerateResource.cache
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\obj\Debug\siteguvenlik.csproj.CoreCompileInputs.cache
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\obj\Debug\siteguvenlik.exe
+C:\Users\eren_\source\repos\siteguvenlik\siteguvenlik\obj\Debug\siteguvenlik.pdb

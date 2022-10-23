@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EYE</string>
+    <string name="bas1">Kullanıcı Doğrulama Formu</string>
+    <string name="bas2">Lütfen aşağıdaki alanlara doğru ve eksiksiz bilgi girişi yapınız!</string>
+    <string name="bas3">Genel Bilgiler</string>
+    <string name="ad">Ad</string>
+    <string name="soyad">Soyad</string>
+    <string name="email">Email</string>
+    <string name="adres">Adres</string>
+    <string name="sehir">Sehir</string>
+    <string name="dtarihi">Dogum Tarihi</string>
+    <string name="telno">Telefon</string>
+    <string name="bas4">Kart Bilgileri</string>
+    <string name="kart">Kart Numarası</string>
+    <string name="skt">Son Kullanma Tarihi</string>
+    <string name="cvv">CVV</string>
+    <string name="gonder">Gönder</string>
+    <string name="goster">Veri Göster</string>
+
+
+</resources>

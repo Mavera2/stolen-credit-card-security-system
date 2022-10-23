@@ -1,0 +1,1 @@
+Projeler veritabanı yollarını masaüstünden almaktadır.

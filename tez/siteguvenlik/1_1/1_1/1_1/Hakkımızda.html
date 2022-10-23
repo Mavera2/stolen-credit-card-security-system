@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html style="background-color:black">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #34495e;
+        }
+
+        .eyes {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            text-align: center;
+        }
+
+        .eye {
+            width: 240px;
+            height: 170px;
+            background: #fff;
+            display: inline-block;
+            margin: 40px;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ball {
+            width: 40px;
+            height: 40px;
+            background: #0005ff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 50%;
+            border: 15px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div><h1 style="background-color: black; color: white; text-align: center; font-size:20rem;"> <b>E Y E</b></h1></div>
+
+
+    <div class="eyes">
+        <div class="eye">
+            <div class="ball"></div>
+        </div>
+
+        <div class="eye">
+            <div class="ball"></div>
+        </div>
+    </div>
+
+
+    <script>
+  var balls = document.getElementsByClassName("ball");
+  document.onmousemove = function(){
+    var x = event.clientX * 100 / window.innerWidth + "%";
+    var y = event.clientY * 100 / window.innerHeight + "%";
+    for(var i=0;i<2;i++){
+      balls[i].style.left = x;
+      balls[i].style.top = y;
+      balls[i].style.transform = "translate(-"+x+",-"+y+")";
+    }
+  }
+    </script>
+</body>
+</html>

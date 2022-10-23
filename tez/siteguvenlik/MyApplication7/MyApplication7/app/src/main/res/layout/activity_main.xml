@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/bas1"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textBaslik2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textBaslik"
+        android:layout_marginTop="5dp"
+        android:text="@string/bas2"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textBaslik3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textBaslik2"
+        android:layout_marginTop="5dp"
+        android:text="@string/bas3"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textBaslik3"
+        android:hint="@string/ad"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/soyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ad"
+        android:hint="@string/soyad"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/soyad"
+        android:hint="@string/email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:hint="@string/adres"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/sehir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adres"
+        android:hint="@string/sehir"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/dtarihi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sehir"
+        android:hint="@string/dtarihi"
+        android:maxLength="8"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/telno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dtarihi"
+        android:hint="@string/telno"
+
+        android:inputType="number"
+        android:maxLength="11" />
+
+
+    <TextView
+        android:id="@+id/textBaslik4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/telno"
+        android:layout_marginTop="5dp"
+        android:text="@string/bas4"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/KART"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textBaslik4"
+        android:hint="@string/kart"
+        android:maxLength="16"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/skt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/KART"
+        android:hint="@string/skt"
+        android:maxLength="4"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/skt"
+        android:hint="@string/cvv"
+        android:maxLength="3"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cvv"
+        android:backgroundTint="@color/material_dynamic_secondary30"
+        android:text="@string/gonder" />
+
+    <Button
+        android:id="@+id/btnVıew"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInsert"
+        android:backgroundTint="@color/material_dynamic_secondary30"
+        android:text="@string/goster" />
+
+
+    <TextView
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnVıew"
+        android:layout_centerInParent="true"
+        android:text="IP:"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+</ScrollView>
